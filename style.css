@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+header .navbar{
+  background-color: #333;
+  width: 100%;
+  max-width: 2000px;
+  padding-block: 1rem;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+}
+
+header .navbar img {
+  width: 90px;
+}
+
+header .navbar .navbar-list ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 3rem 1rem;
+}
+
+header .navbar .navbar-list li {
+  position: relative;
+  list-style-type: none;
+}
+
+header .navbar .navbar-list li a {
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+header .navbar .navbar-list li:hover a {
+  background-color: white;
+  color: #333;
+
+}
+
+#home {
+  display: flex;
+}
