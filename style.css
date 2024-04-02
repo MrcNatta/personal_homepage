@@ -8,8 +8,8 @@
 
 body {
     background-color:  #31363F;
-    color: #fffff;
-    font-family: 'poppins', sans-serif;
+    
+    
     
     
 }
@@ -33,7 +33,7 @@ body {
      font-size: 18px; 
      line-height: 25px;
      border-radius: 4px;
-     position: sticky;]   
+     position: sticky;   
     }
       
    .header a.logo {
@@ -68,7 +68,7 @@ body {
 }
 
 #home .home-content h2{
-    font size: 42px;
+    font-size: 42px;
     color: #EEEEEE;
     
 }
