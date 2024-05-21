@@ -1,3 +1,6 @@
+<?php include 'config.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -103,16 +106,6 @@
             </div>
 
             </div>
-
-
-
-
-
-
-
-
-
-
             <!-- Isi kumpulan foto-foto disini -->
         </section>
 
@@ -122,62 +115,33 @@
             </div>
             <div class="article-container">
                 <article class="article-child">
-                    <h2>3 Fakta Adobe Generative Fill, Fitur AI Photoshop yang Menggiurkan</h2>
-                    <p>Adobe sebagai salah satu pelaku industri teknologi mutakhir tak tinggal diam dalam
-                        perkembangan
-                        kecerdasan buatan atau artificial intelligence (AI). Beberapa waktu yang lalu,
-                        Adobe menambahkan fitur AI dalam salah satu program andalannya, Adobe
-                        Photoshop. Fitur AI tersebut bertajuk Adobe Generative Fill.
-                        Fitur ini memungkinkan pengguna untuk memanipulasi konten yang ada dalam gambar dengan
-                        bantuan
-                        AI.
+                    <h2><?php echo $title1 ?></h2>
+                    <p><?php echo $desc1 ?>
                     </p>
 
 
                     <br>selengkapnya bisa dilihat di sini <a
-                        href="https://www.idntimes.com/tech/trend/hilman-azis/fakta-adobe-generative-fill-fitur-ai-photoshop-c1c2"
+                        href="<?php echo $url1 ?>"
                         target="_blank">3 Fakta Adobe Generative Fill </a>
                 </article>
 
 
                 <article class="article-child">
-                    <h2>Mengenal Game Valorant yang Menjadi Game FPS Terpopuler di Dunia</h2>
-                    <p>Valorant menjadi salah satu game first person shooter (FPS) yang populer di dunia. Game yang
-                        dibuat
-                        untuk menyaingi CS:GO ini sukses menyedot perhatian pemain dari seluruh dunia sejak rilis
-                        pada
-                        2020
-                        lalu.
-                        segi gameplay, Valorant memiliki kesamaan dengan saingan utamanya CS:GO. Yaitu duel antara
-                        dua
-                        tim. Masing-masing tim terdiri dari lima orang.
-                        Permainan ini terdiri dari menanamkan bom, menjinakan bom, dan mengeliminasi semua player
-                        lawan.
+                    <h2><?php echo $title2 ?></h2>
+                    <p><?php echo $desc2 ?>
                         <br>
-
-
-
                         <br>selengkapnya bisa dilihat di sini <a
-                            href="https://lombokpost.jawapos.com/sportivo/1502788309/mengenal-game-valorant-yang-menjadi-game-fps-terpopuler-di-dunia#:~:text=Valorant%20menjadi%20salah%20satu%20game%20first%20person%20shooter%20(FPS)%20yang,Yaitu%20duel%20antara%20dua%20tim."
+                            href="<?php echo $url2 ?>"
                             target="_blank">Mengenal game Valorant </a>
                     </p>
                 </article>
 
                 <article class="article-child">
-                    <h2>Seniman vs. Teknologi: Dampak AI pada Pekerjaan Seni di Indonesia</h2>
-                    <p>Seiring dengan pesatnya perkembangan teknologi AI yang semakin merambah berbagai sektor dan
-                        aplikasi,
-                        muncul perdebatan mengenai dampaknya terhadap dunia seni.
-
-                        <br> Dalam acara 'Create with Lenovo: Smarter Technology for Content Innovation' yang
-                        berlangsung di
-                        Jakarta pada hari Rabu,
-                        <br>Haikal, seorang ilustrator yang dikenal dengan nama Haikal, menyatakan bahwa ia tidak
-                        khawatir
-                        akan potensi penggantian pekerjaan seniman oleh AI.
+                    <h2><?php echo $title3 ?></h2>
+                    <p><?php echo $desc2 ?>
                         <br>
                         <br>selengkapnya bisa dilihat di sini <a
-                            href="https://www.batamnews.co.id/berita-105456-seniman-vs-teknologi-dampak-ai-pada-pekerjaan-seni-di-indonesia.html."
+                            href="<?php echo $url2 ?>"
                             target="_blank">Dampak AI dalam Pekerjaan seni di Indonesia </a>
                     </p>
                 </article>
