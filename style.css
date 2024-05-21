@@ -262,8 +262,7 @@ body {
     margin: 20px;
     display: flex;
     flex-direction: column;
-    
-    
+
   }
   
   .card__image {
@@ -303,6 +302,7 @@ body {
     align-items: center;
     gap: 10px;
     padding-top: 65px;
+    text-align: center;
 }
 
 .article-container{
@@ -320,6 +320,7 @@ body {
     width: 480px;
     padding: 30px;
     border-radius: 20px;
+    text-align: center;
 }
 
 .article-child a{
